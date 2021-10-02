@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/upfile/upfile",
+    "pages/dowfile/dowfile",
+    "pages/lvjing/lvjing"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "证件照底色更换",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap77.json"
+}

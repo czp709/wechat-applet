@@ -1,0 +1,35 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/upfile/upfile",
+          "pathName": "pages/upfile/upfile",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/dowfile/dowfile",
+          "pathName": "pages/dowfile/dowfile",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/lvjing/lvjing",
+          "pathName": "pages/lvjing/lvjing",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

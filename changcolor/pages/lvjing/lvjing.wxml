@@ -1,0 +1,26 @@
+<!--pages/lvjing/lvjing.wxml-->
+<view class="border" bindtap="chosefile">
+  <view  class="border1" wx:if="{{flag}}">
+    <image class="photo1" src="/image/upfile.png" mode="widthFix"></image>
+    <text class="text">请先点击此处上传图片</text>
+  </view>
+  <view class="border1" wx:else>
+    <image class="photo2" src="{{tempFilePaths}}" mode="widthFix"></image>
+    <text class="text">点击图片重新上传</text>
+  </view>
+</view>
+<view class="box3">
+  <text class="color_text">请左右滑动选择滤镜</text>
+  <scroll-view scroll-x="true">
+      <view  class="container">
+        <view wx:for="{{list}}" wx:key="{{index}}" class="{{index == current_tag?'flag-item2':'flag-item1'}}" bindtap="clickedAction" data-id="{{index}}">
+          <image class="lvjing" src="{{item.url}}" mode="widthFix"></image>
+          <text class="lvjing_name">{{item.lvjing}}</text>
+        </view>
+      </view>
+  </scroll-view>
+</view>
+
+<view class="anniu" bindtap="download" hover-class="nnnn">
+  <button class="anniu1">点击保存</button>
+</view>

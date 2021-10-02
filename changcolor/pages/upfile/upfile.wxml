@@ -1,0 +1,30 @@
+<!--pages/upfile/upfile.wxml-->
+<view class="border" bindtap="chosefile">
+  <view  class="border1" wx:if="{{flag}}">
+    <image class="photo" src="/image/upfile.png" mode="widthFix"></image>
+    <text class="text">点击上传图片</text>
+  </view>
+  <view class="border1" wx:else>
+    <image class="photo2" src="{{tempFilePaths}}" mode="widthFix"></image>
+    <text class="text">点击图片重新上传</text>
+  </view>
+</view>
+<view class="box3">
+  <text class="color_text">请选择背景色</text>
+  <radio-group class="changecolor" bindchange="colorchange">
+    <radio value='red' color="#fe0000">
+      <view class="color1"></view>
+    </radio>
+    <radio value='blue' color="#428eda">
+      <view class="color2"></view>
+    </radio>
+    <radio value='white' color="#ffffff">
+      <view class="color3"></view>
+    </radio>
+  </radio-group>
+</view>
+
+
+<view class="anniu" bindtap="upfile">
+  <button class="anniu1">点击上传</button>
+</view>

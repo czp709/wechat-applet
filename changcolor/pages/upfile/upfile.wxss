@@ -1,0 +1,96 @@
+/* pages/upfile/upfile.wxss */
+.border{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin:0 auto;
+  position:relative;
+  width: 85%;
+  border-style: dashed;
+  border: 1rpx solid gainsboro;
+  height: 70vh;
+}
+.border1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin:0 auto;
+  width: 100%;
+  height: 70vh;
+}
+.photo{
+  margin:0 auto;
+  width: 100rpx;
+}
+.text{
+  font-size: 30rpx;
+  color: gray;
+}
+.anniu{
+  margin:0 auto;
+  position: fixed;
+  width: 100%;
+  bottom: 15rpx;
+}
+.anniu1{
+  width: 85%;
+  background-color: cornflowerblue;
+  margin-bottom: 10rpx;
+}
+.photo2{
+  width: 50%;
+}
+.box3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 3vh;
+  font-size: 30rpx;
+  color: gray;
+  margin-left: 7.5%;
+  width: 85%;
+  background-color: #f8f8f8;
+}
+.color_text{
+  margin-top: 1vh;
+}
+.changecolor{
+  margin-top: 1vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 85%;
+  margin-bottom: 1.5vh;
+}
+
+radio .wx-radio-input.wx-radio-input-checked::before {
+  line-height: 18rpx;
+  text-align: center;
+  font-size: 40rpx;
+  color:black;
+
+}
+.color1{
+  width: 60rpx;
+  height: 90rpx;
+  border-radius: 10%;
+  background-color: #fe0000;
+  border: 1rpx solid gainsboro;
+}
+.color2{
+  width: 60rpx;
+  height: 90rpx;
+  border-radius: 10%;
+  background-color: #428eda;
+  border: 1rpx solid gainsboro;
+}
+.color3{
+  width: 60rpx;
+  height: 90rpx;
+  border-radius: 10%;
+  background-color: #ffffff;
+  border: 1rpx solid gainsboro;
+}

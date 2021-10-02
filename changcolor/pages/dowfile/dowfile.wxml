@@ -1,0 +1,7 @@
+<!--pages/dowfile/dowfile.wxml-->
+<view class="border" >
+    <image class="photo2" src="{{url}}" mode="widthFix"></image>
+</view>
+<view class="anniu">
+  <button class="anniu1" bindtap="showAD">点击下载</button>
+</view>

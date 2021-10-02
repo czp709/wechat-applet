@@ -1,0 +1,95 @@
+/* pages/lvjing/lvjing.wxss */
+.border{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin:0 auto;
+  position:relative;
+  width: 85%;
+  border-style: dashed;
+  border: 1rpx solid gainsboro;
+  height: 60vh;
+}
+.border1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin:0 auto;
+  width: 100%;
+  height: 60vh;
+}
+.photo1{
+  margin:0 auto;
+  width: 100rpx;
+}
+.text{
+  font-size: 30rpx;
+  color: gray;
+}
+.anniu{
+  margin:0 auto;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+.anniu1{
+  width: 85%;
+  background-color: cornflowerblue;
+  margin-bottom: 10rpx;
+}
+.photo2{
+  width: 50%;
+}
+.box3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3vh;
+  color: gray;
+  margin-left: 7.5%;
+  width: 85%;
+  background-color: #f8f8f8;
+}
+.color_text{
+  margin-top: 1vh;
+  font-size: 30rpx;
+}
+.flag-item1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20rpx 2% 20rpx 2%;
+  width: 25%;
+}
+.flag-item2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20rpx 2% 20rpx 2%;
+  width: 25%;
+  border: 2px solid wheat;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+}
+.lvjing{
+  width: 100%;
+}
+
+.lvjing_name{
+  width: 150rpx;
+  display:flex;
+  margin-top: -3px;
+  align-items:center;
+  justify-content:center;
+  font-size:30rpx;
+}
+scroll-view{
+  display: flex;
+  white-space: nowrap;
+  flex-direction: row;
+}
+
